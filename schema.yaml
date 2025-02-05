@@ -1,0 +1,24 @@
+COLUMNS:
+  Age: int64
+  Gender: category
+  Smoking: category
+  Alcohol_Consumption: category
+  Physical_Activity_Level: category
+  BMI: float64
+  Diabetes: category
+  Hypertension: category
+  Cholesterol_Level: float64
+  Resting_BP: int64
+  Heart_Rate: int64
+  Family_History: category
+  Stress_Level: category
+  Chest_Pain_Type: category
+  Thalassemia: category
+  Fasting_Blood_Sugar: category
+  ECG_Results: category
+  Exercise_Induced_Angina: category
+  Max_Heart_Rate_Achieved: int64
+  Heart_Attack_Risk: category
+
+TARGET_COLUMN:
+  name: Heart_Attack_Risk
