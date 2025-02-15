@@ -21,4 +21,4 @@ COLUMNS:
   Heart_Attack_Risk: category
 
 TARGET_COLUMN:
-  name: Heart_Attack_Risk
+  name: Heart_Attack_Risk_Encoded

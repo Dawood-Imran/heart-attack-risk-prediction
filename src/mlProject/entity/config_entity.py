@@ -25,3 +25,15 @@ class DataTransformationConfig:
     data_path: Path
     all_schema: dict
     target_column: str
+
+
+
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name: str
+    n_estimators: float
+    max_depth: float
+    target_column: str
